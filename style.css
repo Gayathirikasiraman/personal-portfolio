@@ -1,0 +1,884 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#Home
+{
+	width: 100%;
+	height: 630px;
+	border: 1px solid white;
+	overflow: hidden;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	font-family: "Playwrite DE Grund", cursive;
+}
+.box div
+		{
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 20px;
+			background-color:transparent;
+			border: 6px solid rgba(255,255,255,0.8); 
+		}
+		.box div:nth-child(1)
+		{
+			top: 12%;
+			left: 42%;
+			animation: animate 10s linear infinite;
+		}
+		.box div:nth-child(2)
+		{
+			top: 70%;
+			left: 50%;
+			animation: animate 7s linear infinite;
+		}
+		.box div:nth-child(3)
+		{
+			top: 17%;
+			left: 6%;
+			animation: animate 9s linear infinite;
+		}
+		.box div:nth-child(4)
+		{
+			top: 20%;
+			left: 60%;
+			animation: animate 10s linear infinite;
+		}
+		.box div:nth-child(5)
+		{
+			top:67%;
+			left: 10%;
+			animation: animate 6s linear infinite;
+		}
+		.box div:nth-child(6)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box div:nth-child(7)
+		{
+			top:60%;
+			left: 80%;
+			animation: animate 15s linear infinite;
+		}
+		.box div:nth-child(8)
+		{
+			top:32%;
+			left: 25%;
+			animation: animate 16s linear infinite;
+		}
+		.box div:nth-child(9)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box div:nth-child(10)
+		{
+			top:20%;
+			left: 80%;
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animate 
+		{
+			0%
+			{
+				transform: scale(0) translateY(0) rotate(0);
+				opacity: 1;
+			}
+			100%
+			{
+				transform: scale(1.3) translateY(-90px) rotate(360deg);
+				opacity: 0;
+			}
+		}
+
+.son3
+{
+	display: flex;
+	justify-content: space-between;	
+}
+.child1
+{
+	color: white;
+	margin-left: 50px;
+}
+.child1 span
+{
+	color: blue;
+
+}
+.son1 ul
+{
+	display: flex;
+	list-style-type: none;
+	margin: 30px;
+	color: white;
+}
+
+.son1 li 
+{
+	padding-left: 50px;
+	padding-right: 100px;
+}
+.son1 ul:hover
+{
+	color: #C71585;
+	cursor: pointer;
+	transform: scaleY(1.7);
+}
+.son4
+{
+
+	display: flex;
+	margin-left: 50px;
+	margin-top: 50px;
+
+}
+.child2 span
+{
+	color:blue;
+
+}
+.child2 h1
+{
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
+.child2
+{
+	color: white;
+	line-height: 27px;
+	width: 70%;
+	height: 300px;
+	border: 1px solid;
+	border: none;
+}
+.child2 button
+{
+	height: 25px;
+	width: 15%;
+	border: 3px solid;
+	border-radius: 6px;
+	background-color: blue;
+	color: white;
+	border-color: blue;	
+	outline-color:#9400D3;
+}
+.child2 button:hover
+{
+	transform: scale(1.5);
+	cursor: pointer;
+	background-color:#C71585; 
+}                        
+.child3
+{
+	height: 300px;
+	width: 300px;
+	border: 3px solid;
+	border-radius: 50%;
+	border-color: white;
+	background-image: url(profile.jpg);
+	background-size: cover;
+	border-color: blue;
+	margin-left: 0px;
+}
+.child4
+{
+	display: flex;
+	margin-top: 100px;
+}
+.child5
+{
+	height: 30px;
+	width: 30px;
+	border: 3px solid;
+	border-radius: 30px;
+	border-color: white;
+	margin-left: 50px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: blue;
+	color: white;
+
+}
+.child5:hover
+{
+	border-color: red;
+	cursor: pointer;
+}
+.child6
+{
+	height: 30px;
+	width: 30px;
+	border: 3px solid;
+	border-radius: 30px;
+	border-color: white;
+	margin-left: 20px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: blue;
+	color: white;
+}
+.child6:hover
+{
+	border-color: red;
+	cursor: pointer;
+}
+.child7
+{
+	height: 30px;
+	width: 30px;
+	border: 3px solid;
+	border-radius: 30px;
+	border-color: white;
+	margin-left: 20px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-color: blue;
+	color: white;
+}
+.child7:hover
+{
+	border-color: red;
+	cursor: pointer;
+}
+#About
+{
+	height: 620px;
+	width: 100%;
+	border: 1px solid white;
+	font-family: "Playwrite DE Grund", cursive;
+	overflow: hidden;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.box2 div
+		{
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 20px;
+			background-color:transparent;
+			border: 6px solid rgba(255,255,255,0.8); 
+		}
+		.box2 div:nth-child(1)
+		{
+			top: 12%;
+			left: 42%;
+			animation: animate 10s linear infinite;
+		}
+		.box2 div:nth-child(2)
+		{
+			top: 70%;
+			left: 50%;
+			animation: animate 7s linear infinite;
+		}
+		.box2 div:nth-child(3)
+		{
+			top: 17%;
+			left: 6%;
+			animation: animate 9s linear infinite;
+		}
+		.box2 div:nth-child(4)
+		{
+			top: 20%;
+			left: 60%;
+			animation: animate 10s linear infinite;
+		}
+		.box2 div:nth-child(5)
+		{
+			top:67%;
+			left: 10%;
+			animation: animate 6s linear infinite;
+		}
+		.box2 div:nth-child(6)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box2 div:nth-child(7)
+		{
+			top:60%;
+			left: 80%;
+			animation: animate 15s linear infinite;
+		}
+		.box2 div:nth-child(8)
+		{
+			top:32%;
+			left: 25%;
+			animation: animate 16s linear infinite;
+		}
+		.box2 div:nth-child(9)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box2 div:nth-child(10)
+		{
+			top:20%;
+			left: 80%;
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animate 
+		{
+			0%
+			{
+				transform: scale(0) translateY(0) rotate(0);
+				opacity: 1;
+			}
+			100%
+			{
+				transform: scale(1.3) translateY(-90px) rotate(360deg);
+				opacity: 0;
+			}
+		}
+
+.about1
+{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;	
+}
+.about2
+{
+	color: white;
+	margin-left: 30px;
+}
+.about2 span
+{
+	color: blue;
+}
+.about3 ul
+{
+	display: flex;
+	list-style-type: none;
+	margin: 30px;
+	color: white;
+}
+.about3 li
+{
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+.about4
+{
+	display: flex;
+}
+.about5
+{
+	color: white;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	line-height: 27px;
+	margin-left: 50px;
+	margin-top: 100px;
+	width: 63%;
+}
+.about5 h1
+{
+	color: blue;
+}
+.about5 h1:hover
+{
+	text-decoration: underline;
+	color: darkblue;
+	cursor: pointer;
+	text-shadow: 0px 0px 5px 5px green;
+}
+.about7
+{
+	height: 400px;
+	width: 25%;
+	border: 1px solid;
+	border-color: white;
+	box-shadow: 0 0 10px 10px silver;
+}
+.about7
+{
+	background-image: url(profile2.avif);
+	background-size: 300px 400px;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+.about6 button
+{
+	height: 30px;
+	width: 28%;
+	border-color: blue;
+	margin-top: 20px;
+	border-radius: 20px;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	color: white;
+	box-shadow: 0 0 5px 5px silver;
+}
+.about6 button:hover
+{
+	
+	border-color: blue;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+#Service
+{
+	height: 650px;
+	width: 100%;
+	border: 1px solid white;
+	overflow: hidden;
+	background-color: black;
+	color: white;
+	text-align: center;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-family: "Playwrite DE Grund", cursive;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.box3 div
+		{
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 20px;
+			background-color:transparent;
+			border: 6px solid rgba(255,255,255,0.8); 
+		}
+		.box3 div:nth-child(1)
+		{
+			top: 12%;
+			left: 42%;
+			animation: animate 10s linear infinite;
+		}
+		.box3 div:nth-child(2)
+		{
+			top: 70%;
+			left: 50%;
+			animation: animate 7s linear infinite;
+		}
+		.box3 div:nth-child(3)
+		{
+			top: 17%;
+			left: 6%;
+			animation: animate 9s linear infinite;
+		}
+		.box3 div:nth-child(4)
+		{
+			top: 20%;
+			left: 60%;
+			animation: animate 10s linear infinite;
+		}
+		.box3 div:nth-child(5)
+		{
+			top:67%;
+			left: 10%;
+			animation: animate 6s linear infinite;
+		}
+		.box3 div:nth-child(6)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box3 div:nth-child(7)
+		{
+			top:60%;
+			left: 80%;
+			animation: animate 15s linear infinite;
+		}
+		.box3 div:nth-child(8)
+		{
+			top:32%;
+			left: 25%;
+			animation: animate 16s linear infinite;
+		}
+		.box3 div:nth-child(9)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box3 div:nth-child(10)
+		{
+			top:20%;
+			left: 80%;
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animate 
+		{
+			0%
+			{
+				transform: scale(0) translateY(0) rotate(0);
+				opacity: 1;
+			}
+			100%
+			{
+				transform: scale(1.3) translateY(-90px) rotate(360deg);
+				opacity: 0;
+			}
+		}		
+.service1
+{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;	
+}
+.service2
+{
+	color: white;
+	margin-left: 30px;
+}
+.service2 span
+{
+	color: blue;
+}
+.service3 ul
+{
+	display: flex;
+	list-style-type: none;
+	margin: 30px;
+	color: white;
+}
+.service3 li
+{
+	margin-left: 50px;
+	margin-right: 100px;
+}
+.service4 span
+{
+	color: blue;
+}
+.service5
+{
+	display: flex;
+	margin: 10px;
+}
+.service6
+{
+	height: 350px;
+	width: 30%;
+	background-color:#1E90FF;
+	margin: 10px;
+	margin-top: 50px;
+	margin-left: 45px;
+	border-radius: 40px;
+
+}
+.service8
+{
+	height: 350px;
+	width: 30%;
+	background-color: #1E90FF;
+	margin: 10px;
+	margin-top: 50px;
+	border-radius: 40px;
+}
+.service10
+{
+	height: 350px;
+	width: 30%;
+	background-color:#1E90FF;
+	margin: 10px;
+	margin-top: 50px;
+	border-radius: 40px;
+}
+.service6 i
+{
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+}
+.service8 i
+{
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+}
+.service10 i
+{
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+}
+.service7 button
+{
+	height: 30px;
+	width: 30%;
+	border-color: blue;
+	border-radius: 20px;
+	color: white;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.service9 button
+{
+	height: 30px;
+	width: 30%;
+	border-color: blue;
+	border-radius: 20px;
+	color: white;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.service11 button
+{
+	height: 30px;
+	width: 30%;
+	border-color: blue;
+	border-radius: 20px;
+	color: white;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.service7 button:hover
+{	
+	border-color: none;
+	transform: scale(1.5);
+	cursor: pointer;
+	box-shadow: 0 0 5px 5px silver;
+	letter-spacing: 3px;
+}
+.service9 button:hover
+{
+	border-color: none;
+	transform: scale(1.5);
+	cursor: pointer;
+	box-shadow: 0 0 5px 5px silver;
+	letter-spacing: 3px;	
+}
+.service11 button:hover
+{
+	border-color: none;
+	transform: scale(1.5);
+	cursor: pointer;
+	box-shadow: 0 0 5px 5px silver;
+	letter-spacing: 3px;
+}
+.service6 i:hover
+{
+	color: blue;
+	cursor: pointer;
+}
+.service8 i:hover
+{
+	color: blue;
+	cursor: pointer;
+}
+.service10 i:hover
+{
+	color: blue;
+	cursor: pointer;
+}
+.service6 h2:hover
+{
+	color: darkblue;
+	cursor: pointer;
+}
+.service8 h2:hover
+{
+	color: darkblue;
+	cursor: pointer;
+}
+.service10 h2:hover
+{
+	color: darkblue;
+	cursor: pointer;
+}
+.service6 p
+{
+	line-height: 25px;
+}
+.service8 p
+{
+	line-height: 25px;
+}
+.service10 p
+{
+	line-height: 25px;
+}
+.service6:hover
+{
+	box-shadow: 0 0 5px 5px silver;
+}
+.service8:hover
+{
+	box-shadow: 0 0 5px 5px silver;
+}
+.service10:hover
+{
+	box-shadow: 0 0 5px 5px silver;
+}
+#Contact
+{
+	height: 600px;
+	width: 100%;
+	border: 1px solid white;
+	font-family: "Playwrite DE Grund", cursive;
+	background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.box4 div
+		{
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 20px;
+			background-color:transparent;
+			border: 6px solid rgba(255,255,255,0.8); 
+		}
+		.box4 div:nth-child(1)
+		{
+			top: 12%;
+			left: 42%;
+			animation: animate 10s linear infinite;
+		}
+		.box4 div:nth-child(2)
+		{
+			top: 70%;
+			left: 50%;
+			animation: animate 7s linear infinite;
+		}
+		.box4 div:nth-child(3)
+		{
+			top: 17%;
+			left: 6%;
+			animation: animate 9s linear infinite;
+		}
+		.box4 div:nth-child(4)
+		{
+			top: 20%;
+			left: 60%;
+			animation: animate 10s linear infinite;
+		}
+		.box4 div:nth-child(5)
+		{
+			top:67%;
+			left: 10%;
+			animation: animate 6s linear infinite;
+		}
+		.box4 div:nth-child(6)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box4 div:nth-child(7)
+		{
+			top:60%;
+			left: 80%;
+			animation: animate 15s linear infinite;
+		}
+		.box4 div:nth-child(8)
+		{
+			top:32%;
+			left: 25%;
+			animation: animate 16s linear infinite;
+		}
+		.box4 div:nth-child(9)
+		{
+			top:80%;
+			left: 70%;
+			animation: animate 12s linear infinite;
+		}
+		.box4 div:nth-child(10)
+		{
+			top:20%;
+			left: 80%;
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animate 
+		{
+			0%
+			{
+				transform: scale(0) translateY(0) rotate(0);
+				opacity: 1;
+			}
+			100%
+			{
+				transform: scale(1.3) translateY(-90px) rotate(360deg);
+				opacity: 0;
+			}
+		}
+
+.contact1
+{
+	display: flex;
+	justify-content: space-between;	
+}
+.contact2
+{
+	color: white;
+	margin-left: 30px;
+}
+.contact2 span
+{
+	color: blue;
+}
+.contact3 ul
+{
+	display: flex;
+	list-style-type: none;
+	margin: 30px;
+	color: white;
+}
+.contact3 li
+{
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+.contact4
+{
+	color: white;
+}
+.contact4 fieldset
+{
+	height: 20px;
+	width: 20%;
+}
+.contact4 input
+{
+	border-radius: 10px;
+	color: white;
+	width: 100%;
+	height: 30px;
+    background-color: black;
+    border-color: blue;
+	border-width: 5px;
+}
+.contact7 button
+{
+	margin-top: 30px;
+	height: 30px;
+	width: 13%;
+	border: 3px solid;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	border-color: blue;
+}
+.contact7 button:hover
+{
+	background-color: white;
+	cursor: pointer;
+	color: blue;
+	border-color: blue;
+	transform: scale(1.5);
+}
+.contact5
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact6
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
